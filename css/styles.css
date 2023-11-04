@@ -71,6 +71,31 @@ img {
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (max-width: 767px) {
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+    margin-right: 76px;
+}
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.span {
+    color: var(--dark-color);
+}
+.list-header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
 .list-goals {
     display: flex;
     flex-direction: column;
@@ -129,6 +154,32 @@ img {
 
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1158px) {
+
+.logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-brand-color);
+        margin-right: 76px;
+}
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.span {
+    color: var(--dark-color);
+}
+.list-header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
 
 .container-point {
     display: flex;
@@ -554,16 +605,7 @@ img {
 
 
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-brand-color);
-    margin-right: 76px;
-}
+
 
 .link {
     text-decoration: none;
@@ -572,25 +614,13 @@ img {
     display: inline-block;
     margin-bottom: 16px;
 }
-.logo-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-.span {
-    color: var(--dark-color);
-}
 
 
 
-.list-header {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 40px;
-}
+
+
+
+
 
 
 

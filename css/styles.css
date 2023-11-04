@@ -148,7 +148,6 @@ img {
     gap: 8px;
 }
 .goal {
-    display: flex;
     text-align: center;
     gap: 8px;
     font-weight: 500;

@@ -83,8 +83,10 @@ img {
     text-align: center;
 }
 .list-team {
-    gap: 24px;
-    display: flex;
+    gap: 72px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 .team-members {
     text-align: center;

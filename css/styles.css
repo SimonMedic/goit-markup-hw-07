@@ -804,7 +804,62 @@ border-radius: 2px;
 
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (max-width: 767px) {
-    /* cały kod */
+
+    .goal {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--dark-color);
+        margin-bottom: 8px;
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+    }
+
+    .point {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team-members {
+        text-align: center;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+        word-wrap: break-word;
+        color: var(--dark-color);
+        margin-bottom: 72px;
+    }
+
+    .list-team {
+        gap: 24px;
+        display: flex;
+    }
+
+    .team-photo {
+        background-color: var(--white-background-color);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
+    .function {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
 }
 
 /* ================================================= TABLET 👇 ========================================= */
@@ -814,7 +869,11 @@ border-radius: 2px;
 
 /* ================================================= NOT DESKTOP 👇 ========================================= */
 @media screen and (max-width: 1157px) {
-    .icon-features {
+    .container-point {
+        display: none;
+    }
+
+    .section-work {
         display: none;
     }
 }

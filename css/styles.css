@@ -801,3 +801,25 @@ border-radius: 2px;
 .container-subscribe {
     flex-shrink: 0;
 }
+
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (max-width: 767px) {
+    /* cały kod */
+}
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+    /* cały kod */
+}
+
+/* ================================================= NOT DESKTOP 👇 ========================================= */
+@media screen and (max-width: 1157px) {
+    .icon-features {
+        display: none;
+    }
+}
+
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1158px) {
+    /* co jest potrzebne dla desktopu */
+}

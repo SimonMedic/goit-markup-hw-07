@@ -452,6 +452,9 @@ img {
     max-width: 1440px;
     margin: 0 auto;
 }
+.container-section-one {
+    background-color: var(--light-color);
+}
 .solution {
     font-size: 56px;
     font-style: normal;

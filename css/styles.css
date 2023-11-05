@@ -461,6 +461,10 @@ img {
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1158px) {
 
+.js-open-menu {
+    display: none;
+}
+
 .title {
     font-weight: 500;
     font-size: 20px;
@@ -543,7 +547,7 @@ img {
     margin: 0 auto;
 }
 .container-section-one {
-    background-color: var(--light-color);
+    
 }
 .solution {
     font-size: 56px;

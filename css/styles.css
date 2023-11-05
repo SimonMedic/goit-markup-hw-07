@@ -133,10 +133,10 @@ img {
 .list-nav {
     gap: 40px;
 }
-.container-section-one {
-    background-color: var(--light-color);
-}
 .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 428px;
     height: 432px;
     background-color: var(--dark-color);
@@ -145,6 +145,9 @@ img {
     flex-shrink: 0;
 }
 .section-solution {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
     background-position: center;
@@ -156,14 +159,17 @@ img {
     flex-shrink: 0;
 }
 .solution {
-    font-family: "Roboto";
+    width: 320px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
+    text-align: center;
     letter-spacing: 0.72px;
-    text-transform: capitalize;
     color: var(--white-background-color);
+    max-width: 496px;
+    margin: 0 auto 48px;
+    text-transform: capitalize;
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -173,13 +179,9 @@ img {
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
     background-color: var(--light-color);
-    cursor: pointer;
 }
 .button-solution {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    display: block;
     background-color: var(--primary-brand-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;

@@ -143,8 +143,7 @@ img {
     padding-top: 96px;
 }
 .section-solution {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+    background: url(../images/Dark-bg.jpg), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,8 +317,8 @@ img {
     gap: 72px;
 }
 .container-customers {
-    width: 428px;
-    height: 4926px;
+    width: 396px;
+    height: 520px;
     flex-shrink: 0;
 }
 .customers {

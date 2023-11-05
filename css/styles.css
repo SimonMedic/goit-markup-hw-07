@@ -72,92 +72,93 @@ img {
 @media screen and (max-width: 767px) {
 
 .js-open-menu {
-        border: none;
-        background-color: transparent;
-        display: flex;
-        padding: 24px 0;
-    }
+    height: 70px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    padding: 24px 0;
+}
 
-    .js-menu-container {
-        background-color: var(--white-background-color);
-        z-index: 999;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        transform: translateX(100%);
-        transition: transform 250ms ease-in-out;
-    }
+.js-menu-container {
+    background-color: var(--white-background-color);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+}
 
-    .js-menu-container.is-open {
-        transform: translateX(0);
-    }
+.js-menu-container.is-open {
+    transform: translateX(0);
+}
 
-    .nav-links-mobile {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        margin: 80px 40px;
-    }
+.nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 80px 40px;
+}
 
-    .nav-links-mobile .link {
-        color: var(--dark-color);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-    }
+.nav-links-mobile .link {
+    color: var(--dark-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+     text-transform: capitalize;
+}
 
-    .address-mobile {
-        margin-left: 40px;
-        padding-top: 284px;
-        padding-bottom: 48px;
-    }
+.address-mobile {
+    margin-left: 40px;
+    padding-top: 284px;
+    padding-bottom: 48px;
+}
 
-    .address-links-mobile {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        list-style: none;
-    }
+.address-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style: none;
+}
 
-    .tel-mobile {
-        color: var(--primary-brand-color);
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.72px;
-    }
+.tel-mobile {
+    color: var(--primary-brand-color);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+}
 
-    .mail-mobile {
-        color: var(--text-color);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
-    }
+.mail-mobile {
+    color: var(--text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
 
-    .container-social-media-mobile {
-        margin-left: 40px;
-        margin-bottom: 40px;
-    }
+.container-social-media-mobile {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
 
-    .socials-links-mobile {
-        display: flex;
-        gap: 56px;
-        list-style: none;
-    }
+.socials-links-mobile {
+    display: flex;
+    gap: 56px;
+    list-style: none;
+}
 
-    .title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--dark-color);
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
 }
 
 .logo {
@@ -173,12 +174,14 @@ img {
 .header {
     width: 428px;
     height: 70px;
+    border-bottom: 1px solid var(--accent-color);
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 .logo-header {
     display: inline-flex;
     align-items: center;

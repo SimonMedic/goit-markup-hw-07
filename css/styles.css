@@ -71,7 +71,7 @@ img {
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (max-width: 767px) {
 
-    
+
 }
 
 
@@ -150,6 +150,9 @@ img {
     text-decoration: none;
 }
 .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: normal;
     margin-left: auto;
 }
@@ -373,7 +376,6 @@ img {
     color: var(--pressed-state-color);
 }
 .mail {
-    justify-content: center;
     margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;

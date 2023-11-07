@@ -776,7 +776,15 @@ background-color: var(--dark-color);
     color: var(--white-background-color);
 }
 
-
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-solution{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/people-office.jpg);
+    }
+}
 
 
 
@@ -786,6 +794,11 @@ background-color: var(--dark-color);
 
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
+
+.mobile-menu {
+    display: none;
+}
+
 
 
 }

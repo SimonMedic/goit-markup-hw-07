@@ -494,7 +494,7 @@ img {
 
 .paragraph {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.32px;
@@ -550,6 +550,15 @@ img {
     color: var(--dark-color);
     margin-bottom: 8px;
     text-transform: capitalize;
+}
+
+.paragraph-mobile {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    color: var(--text-color);
 }
 
 .customers-list-point {

@@ -840,6 +840,13 @@ background-color: var(--dark-color);
     transform: translateX(0);
 }
 
+.js-open-menu {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    padding: 24px 0;
+}
+
 .address-mobile {
     margin-left: 40px;
     padding-bottom: 48px;
@@ -893,6 +900,10 @@ background-color: var(--dark-color);
 @media screen and (min-width: 768px) {
 
 .mobile-menu {
+    display: none;
+}
+
+.js-open-menu {
     display: none;
 }
 

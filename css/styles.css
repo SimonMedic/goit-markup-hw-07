@@ -1075,6 +1075,20 @@ background-color: var(--dark-color);
     text-align: left;
 }
 
+.goal {
+    text-align: left;
+    font-style: normal;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
 .list-goals {
     display: flex;
     flex-wrap: wrap;
@@ -1082,9 +1096,11 @@ background-color: var(--dark-color);
     column-gap: 24px;
 }
 
-.point,
+.point {
+    width: calc((100% - 24px) / 2);
+}
 .team-photo {
-    flex-basis: calc((100% - 24px) / 2);
+    
 }
 
 .list-team {
@@ -1275,6 +1291,20 @@ background-color: var(--dark-color);
     display: flex;
     gap: 24px;
 }
+
+.goal {
+    text-align: left;
+    font-style: normal;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+
 
 .container-goals {
 }

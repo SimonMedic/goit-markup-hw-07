@@ -291,6 +291,15 @@ img {
     border-radius: 4px;
 }
 
+.subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-background-color);
+}
+
 .icon-subscribe {
     margin-left: 16px;
 }
@@ -1087,9 +1096,7 @@ background-color: var(--dark-color);
     width: 264px;
 }
 
-.container-subscribe {
-    display: block;
-}
+
 
 .subscribe-form {
     display: flex;
@@ -1101,7 +1108,10 @@ background-color: var(--dark-color);
     padding: 72px 24px 24px 24px;
 }
 
-
+.container-subscribe {
+    display: flex;
+    flex-direction: column;
+}
 
 
 

@@ -265,7 +265,6 @@ img {
     display: inline-flex;
     min-width: 165px;
     height: 40px;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Roboto" sans-serif;

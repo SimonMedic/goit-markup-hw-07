@@ -683,6 +683,10 @@ img {
     transition: transform 250ms ease-in-out;
 }
 
+.mobile-menu.is-open {
+    transform: translateX(0);
+ }
+
 .solution {
     font-size: 36px;
     font-weight: 700;

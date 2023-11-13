@@ -1023,10 +1023,14 @@ background-color: var(--dark-color);
     column-gap: 24px;
 }
 
-.point,
-.team-photo {
+.point {
     flex-basis: calc((100% - 24px) / 2);
 }
+
+
+
+.team-photo {}
+
 
 .list-team {
     display: flex;

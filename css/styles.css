@@ -1015,6 +1015,18 @@ background-color: var(--dark-color);
     text-align: left;
 }
 
+.goal {
+    text-align: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
 .list-goals {
     display: flex;
     flex-wrap: wrap;

@@ -754,9 +754,9 @@ background-color: var(--dark-color);
 
 .customers-list {
     display: flex;
-    row-gap: 16px;
+    row-gap: 72px;
     flex-wrap: wrap;
-    column-gap: 72px;
+    column-gap: 16px;
     justify-content: center;
 }
 
@@ -907,7 +907,19 @@ background-color: var(--dark-color);
     align-items: center;
 }
 
-
+.sub-footer {
+    width: 398px;
+    height: 40px;
+    border: 1px solid var(--white-background-color);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-background-color);
+}
 
 }
 

@@ -232,6 +232,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--light-color);
     max-width: 264px;
+    margin: 0 auto;
 }
 
 .socials-footer {
@@ -247,6 +248,7 @@ img {
     list-style: none;
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 
 .icon-footer {
@@ -733,10 +735,12 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
 
 .js-menu-container.is-open {
@@ -828,7 +832,6 @@ img {
 }
 
 .container-footer {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 72px;
@@ -846,7 +849,6 @@ img {
 }
 
 .subscribe-form {
-    display: flex;
     gap: 16px;
     flex-direction: column;
     align-items: center;
@@ -859,6 +861,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-background-color);
+    text-align: center;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -875,7 +878,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 80px 40px;
 }
 
 .nav-links-mobile .link {
@@ -938,10 +940,30 @@ img {
 
 
 .container-subscribe {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.button-subscribe {
+    display: inline-flex;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background-color);
+    cursor: pointer;
+    background-color: var(--primary-brand-color);
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
 
 .sub-footer {
     width: 100%;
@@ -1068,7 +1090,7 @@ img {
     text-align: left;
     font-style: normal;
     gap: 8px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -1076,6 +1098,16 @@ img {
     margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
 }
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    color: var(--text-color);
+}
+
 
 
 .list-goals {

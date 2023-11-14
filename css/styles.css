@@ -844,7 +844,7 @@ background-color: var(--dark-color);
 (min-resolution: 2dppx) {
     .section-solution{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/people-office.jpg);
+                url(../images/people-office\ x2.jpg);
     }
 }
 
@@ -1067,7 +1067,7 @@ background-color: var(--dark-color);
 (min-resolution: 2dppx) {
     .section-solution {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/people-office\ x2.jpg);
     }
 }
 
